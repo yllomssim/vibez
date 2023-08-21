@@ -1,0 +1,58 @@
+    .navbar {
+    background-color: #edd7d7;
+    color: #fff;
+    }
+    .navbar a {
+    color: #090909;
+    }
+    .navbar a:hover {
+    color: #fff9f9;
+    }
+    
+    #vertical-line {
+        width: 1pc;
+        height: 28pc;
+        background-color: #edd7d7;
+       }
+       .image-chat {
+        width: 20%;
+        height: 20%;
+        object-fit: cover;
+        border-radius: px;
+      }
+
+    .btn-2 {
+      width: 120px;
+      margin: 0 auto;
+      background-color: #edd7d7;
+      color: #000;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .btn-2:hover {
+      background-color: rgb(192, 178, 178);
+      color: #333; 
+  }
+
+    .chat-popup {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      display: none;
+      z-index: 9999;
+  }
+
+  .close-chat-btn {
+    width: 50px;
+    margin: 0 auto;
+    background-color: #edd7d7;
+    color: #000;
+    transition: background-color 0.3s, color 0.3s;
+
+  }
+
+

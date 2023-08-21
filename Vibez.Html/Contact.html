@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" type="text/css" href="Css/Contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Images/logo.png" alt="logo" width="60" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Top Sellers</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Womens Clothing</a></li>
+                            <li><a class="dropdown-item" href="#">Mans Clothing</a></li>
+                            <li><a class="dropdown-item" href="#">Hats</a></li>
+                            <li><a class="dropdown-item" href="#">Jewellery</a></li>
+                            <li><a class="dropdown-item" href="#">Phone Case</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <br><br>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50448.84757371251!2d175.20324134863282!3d-37.788798299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d6d18a57fa16281%3A0x72b05e2e8812d179!2sWintec%20Te%20P%C5%ABkenga%20City%20Campus!5e0!3m2!1sen!2snz!4v1691383114640!5m2!1sen!2snz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col">
+                <br><br><br><br>
+                <p class="fs-1 fw-bold">Visit us!</p>
+                <br>
+                <p class="fs-5">
+                    Shop Address<br>
+                    19B Wintec Street<br>
+                    Hamilton Lake<br>
+                    Hamilton 3402
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="container-lg" style="background-color: #edd7d7;">
+        <p class="fs-2 text-center">
+            Let us know what you think
+        </p>
+        <div class="row g-2">
+            <div class="col">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="firstName" required>
+                    <label for="firstName">First Name</label>
+                </div>
+            </div>
+            <div class="col">
+               <div class="form-floating">
+                  <input type="text" class="form-control" id="lastName" required>
+                  <label for="lastName">Last Name</label>
+               </div>
+            </div>
+            <div class="row g-2">
+                <div class="col">
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com" required  value="vibez@example.com">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="tel" class="form-control" id="phone" required>
+                    <label for="phone">Phone</label>
+                </div>
+            </div>
+            <div class="col">
+               <div class="form-floating">
+                   <input type="text" class="form-control" id="company">
+                   <label for="company">Company Name (Optional)</label>
+               </div>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="feedback" style="height: 100px" required></textarea>
+                <label for="feedback">Feedback</label>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-light" type="button" id="submitBtn">Submit</button>
+                <button class="btn btn-secondary mt-2" type="reset" id="resetBtn">Reset</button>
+            </div>
+            <div class="col-12 mt-2 text-center">
+                <div class="text-danger" id="error-message"></div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="container text-center">
+        <div class="row align-items-start">
+            <div class="col">
+                <p class="fs-2 fw-bolder">
+                    Call us!
+                </p>
+                <p class="fs-4">
+                    Phone<br>
+                    Mon-Fri 9am-5pm<br>
+                    0800 500 vibez<br>
+                    <br>
+                    International<br>
+                    0800 500 VIBEZ<br>
+                    <br>
+                    Email<br>
+                    vibez@vibez.com
+                </p>
+            </div>
+            <div id="vertical-line"></div>
+            <div class="col">
+               <p class="fs-2 fw-bolder">
+                   Easy Return!
+               </p>
+               <p class="fs-4">
+                   Send us your case<br>
+                   details below<br><br><br>
+               </p>
+               <button type="button" class="btn-2" id="newCaseBtn">
+                   New Case
+               </button>
+               <br><br><br><br>
+               <button type="button" class="btn-2">
+                   Refund
+               </button>
+           </div>
+           <div id="vertical-line"></div>
+           <div class="col">
+               <p class="fs-2 fw-bolder">
+                   Live chat!
+               </p>
+               <p class="fs-4">
+                   Start chat with a<br>
+                   team member now<br><br><br>
+               </p>
+               <button type="button" class="btn-2" id="startChatBtn">
+                   Start chat
+               </button>
+               <div class="chat-popup" id="chatPopup">
+                  <p>Here to assist!</p>
+                  <div class="form-floating">
+                     <textarea class="form-control" placeholder="Leave a comment here" id="feedback" style="height: 100px" required></textarea>
+                     <label for="feedback" class="fs-6">Comments</label>
+                 </div>
+                  <p>Welcome to the chat!</p>
+                  <button class="close-chat-btn" id="closeChatBtn">Close</button>
+              </div>
+              
+                <br><br><br><br>
+                <img src="Images/chat.png" alt="chat" class="image-chat">
+            </div>
+         </div>
+        </div>
+    </div>
+    <script src="Js/Contact.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
+

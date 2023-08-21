@@ -1,0 +1,22 @@
+    .navbar {
+    background-color: #edd7d7;
+    color: #fff;
+    }
+    .navbar a {
+    color: #090909;
+    }
+    .navbar a:hover {
+    color: #fff9f9;
+    }
+    .product-image2 {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     border-radius: px;
+   }
+   
+   #horizantal-line {
+    width: 118pc;
+    height: 20px;
+    background-color: #edd7d7;
+   }

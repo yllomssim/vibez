@@ -1,0 +1,111 @@
+.navbar {
+    background-color: #edd7d7;
+    color: #fff;
+    }
+    .navbar a {
+    color: #090909;
+    }
+    .navbar a:hover {
+    color: #fff9f9;
+    }
+    .product-image2 {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     border-radius: 10px;
+     border-top: 100px;
+     margin-top: 20px; 
+     margin-bottom: 20px; 
+   }
+   
+   #horizantal-line1 {
+    width: 450px;
+    height: 60px;
+    background-color: #edd7d7;
+    border-top: 100px;
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+    align-items: right;
+    
+}
+
+#horizantal-line {
+  width: 100%;
+  height: 60px;
+  background-color: #edd7d7;
+  border-top: 100px;
+  margin-top: 10px; 
+  margin-bottom: 20px; 
+}
+
+.custom-carousel {
+    width: 50%; /* Adjust the width as needed */
+    margin: auto;
+     border-top: 100px;
+     margin-top: 30px; 
+     margin-bottom: 40px;
+  }
+  
+  .carousel-inner {
+    max-width: 100%; /* Make sure the carousel images don't exceed the container */
+  }
+  
+  .carousel-inner .carousel-item {
+    max-height: 30%; /* Adjust the max height of the carousel items */
+  }
+  
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: black;
+    color: #090909;
+
+  }
+  
+  .product-card {
+    width: 250px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .product-image {
+    width: 100;
+    height: 250px;
+    background-color: #ddd;
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .product-details {
+    display: none;
+  }
+  
+  
+  .product-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .product-price {
+    color: #888;
+    text-decoration: line-through;
+    margin-bottom: 5px;
+  }
+  
+  .product-discounted-price {
+    font-size: 1.2rem;
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+  .product-description {
+    margin-top: 10px;

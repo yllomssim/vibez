@@ -1,0 +1,61 @@
+.navbar {
+    background-color: #edd7d7;
+    color: #fff;
+    }
+    .navbar a {
+    color: #090909;
+    }
+    .navbar a:hover {
+    color: #fff9f9;
+    }
+    .product-image2 {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     border-radius: 10px;
+     border-top: 100px;
+     margin-top: 20px; 
+     margin-bottom: 20px; 
+   }
+   
+   #horizantal-line {
+    width: 100%;
+    height: 100%;
+    background-color: #edd7d7;
+    border-top: 100px;
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+}
+
+.custom-carousel {
+    width: 50%; /* Adjust the width as needed */
+    margin: auto;
+     border-top: 100px;
+     margin-top: 30px; 
+     margin-bottom: 40px;
+  }
+  
+  .carousel-inner {
+    max-width: 100%; /* Make sure the carousel images don't exceed the container */
+  }
+  
+  .carousel-inner .carousel-item {
+    max-height: 30%; /* Adjust the max height of the carousel items */
+  }
+  
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: black;
+    color: #090909;
+
+  }
+  
+
+
+
+
+
+
+
+  
